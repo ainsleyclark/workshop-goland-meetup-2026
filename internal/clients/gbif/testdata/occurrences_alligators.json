@@ -1,0 +1,593 @@
+{
+  "offset": 0,
+  "limit": 2,
+  "endOfRecords": false,
+  "count": 85504,
+  "results": [
+    {
+      "key": 5938029567,
+      "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+      "publishingOrgKey": "28eb1a3f-1c15-4a95-931a-4af90ecb574d",
+      "datasetCategory": [
+        "CitizenScience"
+      ],
+      "installationKey": "997448a8-f762-11e1-a439-00145eb45e9a",
+      "hostingOrganizationKey": "28eb1a3f-1c15-4a95-931a-4af90ecb574d",
+      "publishingCountry": "US",
+      "protocol": "DWC_ARCHIVE",
+      "lastCrawled": "2026-09-10T19:15:51.157+00:00",
+      "lastParsed": "2026-09-11T06:06:47.551+00:00",
+      "crawlId": 606,
+      "projectId": "https://www.inaturalist.org/projects/miami-nature-map|https://www.inaturalist.org/projects/herps-of-florida",
+      "extensions": {
+        "http://rs.gbif.org/terms/1.0/Multimedia": [
+          {
+            "http://purl.org/dc/terms/created": "2026-01-01T05:55:02-08:00",
+            "http://purl.org/dc/terms/rightsHolder": "John R. Finnerty",
+            "http://purl.org/dc/terms/type": "StillImage",
+            "http://purl.org/dc/terms/creator": "John R. Finnerty",
+            "http://rs.tdwg.org/dwc/terms/catalogNumber": "604907598",
+            "http://purl.org/dc/terms/identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/604907598/original.jpg",
+            "http://purl.org/dc/terms/license": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "http://purl.org/dc/terms/publisher": "iNaturalist",
+            "http://purl.org/dc/terms/format": "image/jpeg",
+            "http://purl.org/dc/terms/references": "https://www.inaturalist.org/photos/604907598"
+          }
+        ]
+      },
+      "basisOfRecord": "HUMAN_OBSERVATION",
+      "occurrenceStatus": "PRESENT",
+      "classifications": {
+        "7ddf754f-d193-4cc9-b351-99906754a03b": {
+          "usage": {
+            "key": "BTRB",
+            "name": "Alligator mississippiensis (Daudin, 1801)",
+            "rank": "SPECIES",
+            "code": "ZOOLOGICAL",
+            "authorship": "(Daudin, 1801)",
+            "genericName": "Alligator",
+            "specificEpithet": "mississippiensis",
+            "formattedName": "<i>Alligator</i> <i>mississippiensis</i> (Daudin, 1801)"
+          },
+          "acceptedUsage": {
+            "key": "BTRB",
+            "name": "Alligator mississippiensis (Daudin, 1801)",
+            "rank": "SPECIES",
+            "code": "ZOOLOGICAL",
+            "authorship": "(Daudin, 1801)",
+            "genericName": "Alligator",
+            "specificEpithet": "mississippiensis",
+            "formattedName": "<i>Alligator</i> <i>mississippiensis</i> (Daudin, 1801)"
+          },
+          "taxonomicStatus": "ACCEPTED",
+          "classification": [
+            {
+              "key": "CS5HF",
+              "name": "Eukaryota",
+              "rank": "DOMAIN"
+            },
+            {
+              "key": "N",
+              "name": "Animalia",
+              "rank": "KINGDOM"
+            },
+            {
+              "key": "CH2",
+              "name": "Chordata",
+              "rank": "PHYLUM"
+            },
+            {
+              "key": "8V4V3",
+              "name": "Vertebrata",
+              "rank": "SUBPHYLUM"
+            },
+            {
+              "key": "8V4V5",
+              "name": "Gnathostomata",
+              "rank": "INFRAPHYLUM"
+            },
+            {
+              "key": "8VVWB",
+              "name": "Osteichthyes",
+              "rank": "PARVPHYLUM"
+            },
+            {
+              "key": "9CK8W",
+              "name": "Tetrapoda",
+              "rank": "MEGACLASS"
+            },
+            {
+              "key": "RP",
+              "name": "Reptilia",
+              "rank": "CLASS"
+            },
+            {
+              "key": "329",
+              "name": "Crocodylia",
+              "rank": "ORDER"
+            },
+            {
+              "key": "622QH",
+              "name": "Alligatoridae",
+              "rank": "FAMILY"
+            },
+            {
+              "key": "S5H",
+              "name": "Alligator",
+              "rank": "GENUS"
+            },
+            {
+              "key": "BTRB",
+              "name": "Alligator mississippiensis",
+              "rank": "SPECIES"
+            }
+          ],
+          "iucnRedListCategoryCode": "LC",
+          "issues": [
+            "TAXON_ID_NOT_FOUND"
+          ]
+        },
+        "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c": {
+          "usage": {
+            "key": "2441370",
+            "name": "Alligator mississippiensis (Daudin, 1801)",
+            "rank": "SPECIES",
+            "code": "ZOOLOGICAL",
+            "authorship": "(Daudin, 1801)",
+            "genericName": "Alligator",
+            "specificEpithet": "mississippiensis",
+            "formattedName": "<i>Alligator</i> <i>mississippiensis</i> (Daudin, 1801)"
+          },
+          "acceptedUsage": {
+            "key": "2441370",
+            "name": "Alligator mississippiensis (Daudin, 1801)",
+            "rank": "SPECIES",
+            "code": "ZOOLOGICAL",
+            "authorship": "(Daudin, 1801)",
+            "genericName": "Alligator",
+            "specificEpithet": "mississippiensis",
+            "formattedName": "<i>Alligator</i> <i>mississippiensis</i> (Daudin, 1801)"
+          },
+          "taxonomicStatus": "ACCEPTED",
+          "classification": [
+            {
+              "key": "1",
+              "name": "Animalia",
+              "rank": "KINGDOM"
+            },
+            {
+              "key": "44",
+              "name": "Chordata",
+              "rank": "PHYLUM"
+            },
+            {
+              "key": "11493978",
+              "name": "Crocodylia",
+              "rank": "CLASS"
+            },
+            {
+              "key": "3238603",
+              "name": "Alligatoridae",
+              "rank": "FAMILY"
+            },
+            {
+              "key": "2441367",
+              "name": "Alligator",
+              "rank": "GENUS"
+            },
+            {
+              "key": "2441370",
+              "name": "Alligator mississippiensis",
+              "rank": "SPECIES"
+            }
+          ],
+          "iucnRedListCategoryCode": "LC",
+          "issues": [
+            "TAXON_ID_NOT_FOUND"
+          ]
+        }
+      },
+      "taxonKey": 2441370,
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "classKey": 11493978,
+      "familyKey": 3238603,
+      "genusKey": 2441367,
+      "speciesKey": 2441370,
+      "acceptedTaxonKey": 2441370,
+      "scientificName": "Alligator mississippiensis (Daudin, 1801)",
+      "scientificNameAuthorship": "(Daudin, 1801)",
+      "acceptedScientificName": "Alligator mississippiensis (Daudin, 1801)",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "family": "Alligatoridae",
+      "genus": "Alligator",
+      "species": "Alligator mississippiensis",
+      "genericName": "Alligator",
+      "specificEpithet": "mississippiensis",
+      "taxonRank": "SPECIES",
+      "taxonomicStatus": "ACCEPTED",
+      "iucnRedListCategory": "LC",
+      "dateIdentified": "2026-01-03T00:06:11",
+      "decimalLatitude": 25.382684,
+      "decimalLongitude": -80.607177,
+      "coordinateUncertaintyInMeters": 234.0,
+      "continent": "NORTH_AMERICA",
+      "stateProvince": "Florida",
+      "gadm": {
+        "level0": {
+          "gid": "USA",
+          "name": "United States"
+        },
+        "level1": {
+          "gid": "USA.10_1",
+          "name": "Florida"
+        },
+        "level2": {
+          "gid": "USA.10.43_1",
+          "name": "Miami-Dade"
+        }
+      },
+      "year": 2026,
+      "month": 1,
+      "day": 1,
+      "eventDate": "2026-01-01T05:55",
+      "startDayOfYear": 1,
+      "endDayOfYear": 1,
+      "issues": [
+        "COORDINATE_ROUNDED",
+        "CONTINENT_DERIVED_FROM_COORDINATES",
+        "TAXON_ID_NOT_FOUND"
+      ],
+      "modified": "2026-01-11T20:22:08.000+00:00",
+      "lastInterpreted": "2026-09-11T06:06:47.551+00:00",
+      "references": "https://www.inaturalist.org/observations/333218640",
+      "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+      "isSequenced": false,
+      "identifiers": [
+        {
+          "identifier": "333218640"
+        }
+      ],
+      "media": [
+        {
+          "type": "StillImage",
+          "format": "image/jpeg",
+          "references": "https://www.inaturalist.org/photos/604907598",
+          "created": "2026-01-01T13:55:02.000+00:00",
+          "creator": "John R. Finnerty",
+          "publisher": "iNaturalist",
+          "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+          "rightsHolder": "John R. Finnerty",
+          "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/604907598/original.jpg"
+        }
+      ],
+      "facts": [],
+      "relations": [],
+      "isInCluster": false,
+      "datasetName": "iNaturalist research-grade observations",
+      "recordedBy": "John R. Finnerty",
+      "identifiedBy": "John R. Finnerty",
+      "dnaSequenceID": [],
+      "nucleotideSequence": [],
+      "geodeticDatum": "WGS84",
+      "class": "Crocodylia",
+      "countryCode": "US",
+      "recordedByIDs": [],
+      "identifiedByIDs": [],
+      "gbifRegion": "NORTH_AMERICA",
+      "country": "United States of America",
+      "publishedByGbifRegion": "NORTH_AMERICA",
+      "rightsHolder": "John R. Finnerty",
+      "identifier": "333218640",
+      "http://unknown.org/nick": "jrfinnerty",
+      "verbatimEventDate": "2026/01/01 5:55 AM",
+      "http://unknown.org/crawl_attempt": "606",
+      "http://unknown.org/status": "not_reviewed",
+      "gbifID": "5938029567",
+      "collectionCode": "Observations",
+      "verbatimLocality": "Anhinga Trail, Florida, USA",
+      "occurrenceID": "https://www.inaturalist.org/observations/333218640",
+      "taxonID": "26159",
+      "http://unknown.org/captive_cultivated": "wild",
+      "catalogNumber": "333218640",
+      "institutionCode": "iNaturalist",
+      "eventTime": "05:55:00-05:00",
+      "identificationID": "745752275"
+    },
+    {
+      "key": 5938030576,
+      "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+      "publishingOrgKey": "28eb1a3f-1c15-4a95-931a-4af90ecb574d",
+      "datasetCategory": [
+        "CitizenScience"
+      ],
+      "installationKey": "997448a8-f762-11e1-a439-00145eb45e9a",
+      "hostingOrganizationKey": "28eb1a3f-1c15-4a95-931a-4af90ecb574d",
+      "publishingCountry": "US",
+      "protocol": "DWC_ARCHIVE",
+      "lastCrawled": "2026-09-10T19:15:51.157+00:00",
+      "lastParsed": "2026-09-11T05:21:23.572+00:00",
+      "crawlId": 606,
+      "projectId": "https://www.inaturalist.org/projects/us-mexico-border-naturalists|https://www.inaturalist.org/projects/lower-rio-grande-valley-wildlife",
+      "extensions": {
+        "http://rs.gbif.org/terms/1.0/Multimedia": [
+          {
+            "http://purl.org/dc/terms/created": "2026-01-01T16:18:12Z",
+            "http://purl.org/dc/terms/rightsHolder": "eagledance",
+            "http://purl.org/dc/terms/type": "StillImage",
+            "http://purl.org/dc/terms/creator": "eagledance",
+            "http://rs.tdwg.org/dwc/terms/catalogNumber": "604989252",
+            "http://purl.org/dc/terms/identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/604989252/original.jpg",
+            "http://purl.org/dc/terms/license": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "http://purl.org/dc/terms/publisher": "iNaturalist",
+            "http://purl.org/dc/terms/format": "image/jpeg",
+            "http://purl.org/dc/terms/references": "https://www.inaturalist.org/photos/604989252"
+          }
+        ]
+      },
+      "basisOfRecord": "HUMAN_OBSERVATION",
+      "occurrenceStatus": "PRESENT",
+      "lifeStage": "Juvenile",
+      "classifications": {
+        "7ddf754f-d193-4cc9-b351-99906754a03b": {
+          "usage": {
+            "key": "BTRB",
+            "name": "Alligator mississippiensis (Daudin, 1801)",
+            "rank": "SPECIES",
+            "code": "ZOOLOGICAL",
+            "authorship": "(Daudin, 1801)",
+            "genericName": "Alligator",
+            "specificEpithet": "mississippiensis",
+            "formattedName": "<i>Alligator</i> <i>mississippiensis</i> (Daudin, 1801)"
+          },
+          "acceptedUsage": {
+            "key": "BTRB",
+            "name": "Alligator mississippiensis (Daudin, 1801)",
+            "rank": "SPECIES",
+            "code": "ZOOLOGICAL",
+            "authorship": "(Daudin, 1801)",
+            "genericName": "Alligator",
+            "specificEpithet": "mississippiensis",
+            "formattedName": "<i>Alligator</i> <i>mississippiensis</i> (Daudin, 1801)"
+          },
+          "taxonomicStatus": "ACCEPTED",
+          "classification": [
+            {
+              "key": "CS5HF",
+              "name": "Eukaryota",
+              "rank": "DOMAIN"
+            },
+            {
+              "key": "N",
+              "name": "Animalia",
+              "rank": "KINGDOM"
+            },
+            {
+              "key": "CH2",
+              "name": "Chordata",
+              "rank": "PHYLUM"
+            },
+            {
+              "key": "8V4V3",
+              "name": "Vertebrata",
+              "rank": "SUBPHYLUM"
+            },
+            {
+              "key": "8V4V5",
+              "name": "Gnathostomata",
+              "rank": "INFRAPHYLUM"
+            },
+            {
+              "key": "8VVWB",
+              "name": "Osteichthyes",
+              "rank": "PARVPHYLUM"
+            },
+            {
+              "key": "9CK8W",
+              "name": "Tetrapoda",
+              "rank": "MEGACLASS"
+            },
+            {
+              "key": "RP",
+              "name": "Reptilia",
+              "rank": "CLASS"
+            },
+            {
+              "key": "329",
+              "name": "Crocodylia",
+              "rank": "ORDER"
+            },
+            {
+              "key": "622QH",
+              "name": "Alligatoridae",
+              "rank": "FAMILY"
+            },
+            {
+              "key": "S5H",
+              "name": "Alligator",
+              "rank": "GENUS"
+            },
+            {
+              "key": "BTRB",
+              "name": "Alligator mississippiensis",
+              "rank": "SPECIES"
+            }
+          ],
+          "iucnRedListCategoryCode": "LC",
+          "issues": [
+            "TAXON_ID_NOT_FOUND"
+          ]
+        },
+        "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c": {
+          "usage": {
+            "key": "2441370",
+            "name": "Alligator mississippiensis (Daudin, 1801)",
+            "rank": "SPECIES",
+            "code": "ZOOLOGICAL",
+            "authorship": "(Daudin, 1801)",
+            "genericName": "Alligator",
+            "specificEpithet": "mississippiensis",
+            "formattedName": "<i>Alligator</i> <i>mississippiensis</i> (Daudin, 1801)"
+          },
+          "acceptedUsage": {
+            "key": "2441370",
+            "name": "Alligator mississippiensis (Daudin, 1801)",
+            "rank": "SPECIES",
+            "code": "ZOOLOGICAL",
+            "authorship": "(Daudin, 1801)",
+            "genericName": "Alligator",
+            "specificEpithet": "mississippiensis",
+            "formattedName": "<i>Alligator</i> <i>mississippiensis</i> (Daudin, 1801)"
+          },
+          "taxonomicStatus": "ACCEPTED",
+          "classification": [
+            {
+              "key": "1",
+              "name": "Animalia",
+              "rank": "KINGDOM"
+            },
+            {
+              "key": "44",
+              "name": "Chordata",
+              "rank": "PHYLUM"
+            },
+            {
+              "key": "11493978",
+              "name": "Crocodylia",
+              "rank": "CLASS"
+            },
+            {
+              "key": "3238603",
+              "name": "Alligatoridae",
+              "rank": "FAMILY"
+            },
+            {
+              "key": "2441367",
+              "name": "Alligator",
+              "rank": "GENUS"
+            },
+            {
+              "key": "2441370",
+              "name": "Alligator mississippiensis",
+              "rank": "SPECIES"
+            }
+          ],
+          "iucnRedListCategoryCode": "LC",
+          "issues": [
+            "TAXON_ID_NOT_FOUND"
+          ]
+        }
+      },
+      "taxonKey": 2441370,
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "classKey": 11493978,
+      "familyKey": 3238603,
+      "genusKey": 2441367,
+      "speciesKey": 2441370,
+      "acceptedTaxonKey": 2441370,
+      "scientificName": "Alligator mississippiensis (Daudin, 1801)",
+      "scientificNameAuthorship": "(Daudin, 1801)",
+      "acceptedScientificName": "Alligator mississippiensis (Daudin, 1801)",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "family": "Alligatoridae",
+      "genus": "Alligator",
+      "species": "Alligator mississippiensis",
+      "genericName": "Alligator",
+      "specificEpithet": "mississippiensis",
+      "taxonRank": "SPECIES",
+      "taxonomicStatus": "ACCEPTED",
+      "iucnRedListCategory": "LC",
+      "dateIdentified": "2026-01-03T06:00:28",
+      "decimalLatitude": 26.126589,
+      "decimalLongitude": -97.952917,
+      "continent": "NORTH_AMERICA",
+      "stateProvince": "Texas",
+      "gadm": {
+        "level0": {
+          "gid": "USA",
+          "name": "United States"
+        },
+        "level1": {
+          "gid": "USA.44_1",
+          "name": "Texas"
+        },
+        "level2": {
+          "gid": "USA.44.108_1",
+          "name": "Hidalgo"
+        }
+      },
+      "year": 2026,
+      "month": 1,
+      "day": 1,
+      "eventDate": "2026-01-01T10:18:12",
+      "startDayOfYear": 1,
+      "endDayOfYear": 1,
+      "issues": [
+        "COORDINATE_ROUNDED",
+        "CONTINENT_DERIVED_FROM_COORDINATES",
+        "TAXON_ID_NOT_FOUND"
+      ],
+      "modified": "2026-01-11T20:20:08.000+00:00",
+      "lastInterpreted": "2026-09-11T05:21:23.572+00:00",
+      "references": "https://www.inaturalist.org/observations/333256900",
+      "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+      "isSequenced": false,
+      "identifiers": [
+        {
+          "identifier": "333256900"
+        }
+      ],
+      "media": [
+        {
+          "type": "StillImage",
+          "format": "image/jpeg",
+          "references": "https://www.inaturalist.org/photos/604989252",
+          "created": "2026-01-01T16:18:12.000+00:00",
+          "creator": "eagledance",
+          "publisher": "iNaturalist",
+          "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+          "rightsHolder": "eagledance",
+          "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/604989252/original.jpg"
+        }
+      ],
+      "facts": [],
+      "relations": [],
+      "isInCluster": false,
+      "datasetName": "iNaturalist research-grade observations",
+      "recordedBy": "eagledance",
+      "identifiedBy": "eagledance",
+      "dnaSequenceID": [],
+      "nucleotideSequence": [],
+      "geodeticDatum": "WGS84",
+      "class": "Crocodylia",
+      "countryCode": "US",
+      "recordedByIDs": [],
+      "identifiedByIDs": [],
+      "gbifRegion": "NORTH_AMERICA",
+      "country": "United States of America",
+      "publishedByGbifRegion": "NORTH_AMERICA",
+      "rightsHolder": "eagledance",
+      "identifier": "333256900",
+      "http://unknown.org/nick": "eagledance",
+      "verbatimEventDate": "2026-01-01 10:18:12",
+      "http://unknown.org/crawl_attempt": "606",
+      "dynamicProperties": "{\"evidenceOfPresence\":\"organism\"}",
+      "http://unknown.org/status": "not_reviewed",
+      "gbifID": "5938030576",
+      "collectionCode": "Observations",
+      "verbatimLocality": "Progreso Lakes, TX 78596, USA",
+      "occurrenceID": "https://www.inaturalist.org/observations/333256900",
+      "taxonID": "26159",
+      "http://unknown.org/captive_cultivated": "wild",
+      "catalogNumber": "333256900",
+      "institutionCode": "iNaturalist",
+      "vitality": "alive",
+      "eventTime": "10:18:12-06:00",
+      "identificationID": "745849340"
+    }
+  ],
+  "facets": []
+}

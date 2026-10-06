@@ -1,0 +1,17 @@
+<!doctype html>
+<title>Sightings</title>
+<h1>Sightings</h1>
+<ul>
+{{range .}}
+	<li>
+		<strong>{{with .Species.VernacularName}}{{.}}{{else}}{{.Sighting.ScientificName}}{{end}}</strong>
+		<em>{{.Sighting.ScientificName}}</em>
+		{{with .Species.Class}}<small>{{.}}</small>{{end}} —
+		{{with .Sighting.Locality}}{{.}}, {{end}}{{.Sighting.Country}}
+		({{.Sighting.Latitude}}, {{.Sighting.Longitude}})
+		on {{.Sighting.EventDate}}
+	</li>
+{{else}}
+	<li>Nothing saved yet.</li>
+{{end}}
+</ul>

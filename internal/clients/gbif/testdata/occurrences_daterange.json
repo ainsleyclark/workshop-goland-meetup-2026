@@ -1,0 +1,560 @@
+{
+	"offset": 0,
+	"limit": 2,
+	"endOfRecords": false,
+	"count": 15859837,
+	"results": [
+		{
+			"key": 1039645472,
+			"datasetKey": "854cf79e-f762-11e1-a439-00145eb45e9a",
+			"publishingOrgKey": "2e167bb0-4441-11db-9ba2-b8a03c50a862",
+			"installationKey": "a974d1b0-37fa-442b-bf5e-47159b201779",
+			"hostingOrganizationKey": "2e167bb0-4441-11db-9ba2-b8a03c50a862",
+			"publishingCountry": "US",
+			"protocol": "EML",
+			"lastCrawled": "2026-08-13T21:23:55.743Z",
+			"lastParsed": "2026-08-24T16:40:23.092Z",
+			"crawlId": 2754,
+			"extensions": {
+				"http://rs.tdwg.org/ac/terms/Multimedia": [
+					{
+						"http://purl.org/dc/terms/rights": "CC0",
+						"http://rs.tdwg.org/ac/terms/variantLiteral": "",
+						"http://ns.adobe.com/xap/1.0/rights/Owner": "",
+						"http://purl.org/dc/elements/1.1/creator": "YPM Vertebrate Zoology staff",
+						"http://rs.tdwg.org/ac/terms/associatedObservationReference": "",
+						"http://purl.org/dc/elements/1.1/type": "StillImage",
+						"http://purl.org/dc/terms/identifier": "urn:uuid:3eecc754-437a-4027-80b4-833c5d5be537",
+						"http://purl.org/dc/terms/format": "image/jpeg",
+						"http://rs.tdwg.org/ac/terms/accessURI": "https://images.collections.yale.edu/iiif/2/ypm:3eecc754-437a-4027-80b4-833c5d5be537/full/!1920,1920/0/default.jpg"
+					},
+					{
+						"http://purl.org/dc/terms/rights": "CC0",
+						"http://rs.tdwg.org/ac/terms/variantLiteral": "",
+						"http://ns.adobe.com/xap/1.0/rights/Owner": "",
+						"http://purl.org/dc/elements/1.1/creator": "YPM Vertebrate Zoology staff",
+						"http://rs.tdwg.org/ac/terms/associatedObservationReference": "",
+						"http://purl.org/dc/elements/1.1/type": "StillImage",
+						"http://purl.org/dc/terms/identifier": "urn:uuid:45976832-c73e-401d-b7fb-2efdc6fb4470",
+						"http://purl.org/dc/terms/format": "image/jpeg",
+						"http://rs.tdwg.org/ac/terms/accessURI": "https://images.collections.yale.edu/iiif/2/ypm:45976832-c73e-401d-b7fb-2efdc6fb4470/full/!1920,1920/0/default.jpg"
+					}
+				]
+			},
+			"basisOfRecord": "PRESERVED_SPECIMEN",
+			"occurrenceStatus": "PRESENT",
+			"classifications": {
+				"7ddf754f-d193-4cc9-b351-99906754a03b": {
+					"usage": {
+						"key": "78JXM",
+						"name": "Psittacus erithacus Linnaeus, 1758",
+						"rank": "SPECIES",
+						"code": "ZOOLOGICAL",
+						"authorship": "Linnaeus, 1758",
+						"genericName": "Psittacus",
+						"specificEpithet": "erithacus",
+						"formattedName": "<i>Psittacus</i> <i>erithacus</i> Linnaeus, 1758"
+					},
+					"acceptedUsage": {
+						"key": "78JXM",
+						"name": "Psittacus erithacus Linnaeus, 1758",
+						"rank": "SPECIES",
+						"code": "ZOOLOGICAL",
+						"genericName": "Psittacus",
+						"specificEpithet": "erithacus",
+						"formattedName": "<i>Psittacus</i> <i>erithacus</i> Linnaeus, 1758",
+						"authorship": "Linnaeus, 1758"
+					},
+					"taxonomicStatus": "ACCEPTED",
+					"classification": [
+						{
+							"key": "CS5HF",
+							"name": "Eukaryota",
+							"rank": "DOMAIN"
+						},
+						{
+							"key": "N",
+							"name": "Animalia",
+							"rank": "KINGDOM"
+						},
+						{
+							"key": "CH2",
+							"name": "Chordata",
+							"rank": "PHYLUM"
+						},
+						{
+							"key": "8V4V3",
+							"name": "Vertebrata",
+							"rank": "SUBPHYLUM"
+						},
+						{
+							"key": "8V4V5",
+							"name": "Gnathostomata",
+							"rank": "INFRAPHYLUM"
+						},
+						{
+							"key": "8VVWB",
+							"name": "Osteichthyes",
+							"rank": "PARVPHYLUM"
+						},
+						{
+							"key": "9CK8W",
+							"name": "Tetrapoda",
+							"rank": "MEGACLASS"
+						},
+						{
+							"key": "V2",
+							"name": "Aves",
+							"rank": "CLASS"
+						},
+						{
+							"key": "3X7",
+							"name": "Psittaciformes",
+							"rank": "ORDER"
+						},
+						{
+							"key": "FBD",
+							"name": "Psittacidae",
+							"rank": "FAMILY"
+						},
+						{
+							"key": "74CC",
+							"name": "Psittacus",
+							"rank": "GENUS"
+						},
+						{
+							"key": "78JXM",
+							"name": "Psittacus erithacus",
+							"rank": "SPECIES"
+						}
+					],
+					"issues": [],
+					"iucnRedListCategoryCode": "EN"
+				},
+				"d7dddbf4-2cf0-4f39-9b2a-bb099caae36c": {
+					"usage": {
+						"key": "2480181",
+						"name": "Psittacus erithacus Linnaeus, 1758",
+						"rank": "SPECIES",
+						"code": "ZOOLOGICAL",
+						"genericName": "Psittacus",
+						"specificEpithet": "erithacus",
+						"formattedName": "<i>Psittacus</i> <i>erithacus</i> Linnaeus, 1758",
+						"authorship": "Linnaeus, 1758"
+					},
+					"acceptedUsage": {
+						"key": "2480181",
+						"name": "Psittacus erithacus Linnaeus, 1758",
+						"rank": "SPECIES",
+						"code": "ZOOLOGICAL",
+						"genericName": "Psittacus",
+						"specificEpithet": "erithacus",
+						"formattedName": "<i>Psittacus</i> <i>erithacus</i> Linnaeus, 1758",
+						"authorship": "Linnaeus, 1758"
+					},
+					"taxonomicStatus": "ACCEPTED",
+					"classification": [
+						{
+							"key": "1",
+							"name": "Animalia",
+							"rank": "KINGDOM"
+						},
+						{
+							"key": "44",
+							"name": "Chordata",
+							"rank": "PHYLUM"
+						},
+						{
+							"key": "212",
+							"name": "Aves",
+							"rank": "CLASS"
+						},
+						{
+							"key": "1445",
+							"name": "Psittaciformes",
+							"rank": "ORDER"
+						},
+						{
+							"key": "9340",
+							"name": "Psittacidae",
+							"rank": "FAMILY"
+						},
+						{
+							"key": "2480180",
+							"name": "Psittacus",
+							"rank": "GENUS"
+						},
+						{
+							"key": "2480181",
+							"name": "Psittacus erithacus",
+							"rank": "SPECIES"
+						}
+					],
+					"issues": [],
+					"iucnRedListCategoryCode": "EN"
+				}
+			},
+			"taxonKey": 2480181,
+			"kingdomKey": 1,
+			"phylumKey": 44,
+			"classKey": 212,
+			"orderKey": 1445,
+			"familyKey": 9340,
+			"genusKey": 2480180,
+			"speciesKey": 2480181,
+			"acceptedTaxonKey": 2480181,
+			"scientificName": "Psittacus erithacus Linnaeus, 1758",
+			"acceptedScientificName": "Psittacus erithacus Linnaeus, 1758",
+			"kingdom": "Animalia",
+			"phylum": "Chordata",
+			"order": "Psittaciformes",
+			"family": "Psittacidae",
+			"genus": "Psittacus",
+			"species": "Psittacus erithacus",
+			"genericName": "Psittacus",
+			"specificEpithet": "erithacus",
+			"taxonRank": "SPECIES",
+			"taxonomicStatus": "ACCEPTED",
+			"continent": "",
+			"gadm": {
+				"level0": {
+					"gid": "",
+					"name": ""
+				},
+				"level1": {
+					"gid": "",
+					"name": ""
+				},
+				"level2": {
+					"gid": "",
+					"name": ""
+				},
+				"level3": {
+					"gid": "",
+					"name": ""
+				}
+			},
+			"year": 2020,
+			"month": 1,
+			"eventDate": "2020-01",
+			"issues": [
+				"OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT",
+				"INSTITUTION_MATCH_FUZZY"
+			],
+			"lastInterpreted": "2026-08-24T16:40:23.092Z",
+			"license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+			"isSequenced": false,
+			"identifiers": [
+				{
+					"identifier": "urn:uuid:cb8321de-9e27-4eae-bfbd-887025a60293"
+				}
+			],
+			"media": [
+				{
+					"type": "StillImage",
+					"format": "image/jpeg",
+					"title": "Psittacus erithacus (YPM ORN 133018). Digital Image: Yale Peabody Museum; photo by YPM Vertebrate Zoology staff 2021",
+					"created": "0001-01-01T00:00:00Z",
+					"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+					"rightsHolder": "",
+					"identifier": "https://images.collections.yale.edu/iiif/2/ypm:3eecc754-437a-4027-80b4-833c5d5be537/full/!1920,1920/0/default.jpg",
+					"creator": "YPM Vertebrate Zoology staff"
+				},
+				{
+					"type": "StillImage",
+					"format": "image/jpeg",
+					"title": "Psittacus erithacus (YPM ORN 133018). Digital Image: Yale Peabody Museum; photo by YPM Vertebrate Zoology staff 2021",
+					"created": "0001-01-01T00:00:00Z",
+					"license": "http://creativecommons.org/publicdomain/zero/1.0/",
+					"rightsHolder": "",
+					"identifier": "https://images.collections.yale.edu/iiif/2/ypm:45976832-c73e-401d-b7fb-2efdc6fb4470/full/!1920,1920/0/default.jpg",
+					"creator": "YPM Vertebrate Zoology staff"
+				}
+			],
+			"facts": [],
+			"relations": [],
+			"isInCluster": false,
+			"recordedBy": "Piper L. Stepule",
+			"dnaSequenceID": [],
+			"nucleotideSequence": [],
+			"class": "Aves",
+			"countryCode": "",
+			"recordedByIDs": [],
+			"identifiedByIDs": [],
+			"gbifRegion": "",
+			"country": "",
+			"publishedByGbifRegion": "NORTH_AMERICA",
+			"catalogNumber": "YPM ORN 133018",
+			"http://unknown.org/crawl_attempt": "2767",
+			"institutionCode": "YPM",
+			"locality": "",
+			"gbifID": "1039645472",
+			"collectionCode": "VZ",
+			"networkKeys": [
+				"68e8e67a-43e6-44a3-8817-dc0e6b70f973",
+				"99d66b6c-9087-452f-a9d4-f15f2c2d0e7e"
+			],
+			"scientificNameAuthorship": "Linnaeus, 1758",
+			"iucnRedListCategory": "EN",
+			"modified": "2025-11-20T21:34:35Z",
+			"institutionKey": "75f50140-830d-4630-a290-3d6e951a7c29",
+			"http://unknown.org/conceptualSchema": "http://bnhm.berkeley.edu/manis/DwC/darwin2jrw030315.xsd",
+			"identifier": "urn:uuid:cb8321de-9e27-4eae-bfbd-887025a60293",
+			"dynamicProperties": "{ \"irn\": \"736964\", \"media\": \"941886:45976832-c73e-401d-b7fb-2efdc6fb4470 941887:3eecc754-437a-4027-80b4-833c5d5be537\", \"mm_repository_id\": \"941886\" }",
+			"http://unknown.org/maxSearchResponseRecords": "10000",
+			"occurrenceID": "urn:uuid:cb8321de-9e27-4eae-bfbd-887025a60293",
+			"http://unknown.org/code": "orn",
+			"individualCount": 3,
+			"higherClassification": "Animalia; Chordata; Vertebrata; Amniota; Aves; Neornithes; Neognathae; Psittaciformes; Psittacidae",
+			"references": "http://collections.peabody.yale.edu/search/Record/YPM-ORN-133018",
+			"language": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"vernacularName": "Grey Parrot; Parrots; Birds; vertebrates; chordates; animals",
+			"bibliographicCitation": "Psittacus erithacus (YPM ORN 133018)",
+			"preparations": "egg",
+			"rightsHolder": "Yale Peabody Museum",
+			"ownerInstitutionCode": "YPM",
+			"occurrenceRemarks": "ORN number 133018; captive",
+			"nomenclaturalCode": "ICZN",
+			"datasetID": "1",
+			"http://unknown.org/omitFromScheduledCrawlomitempty": "",
+			"accessRights": "Open Access, http://creativecommons.org/publicdomain/zero/1.0/; see Yale Peabody policies at: http://hdl.handle.net/10079/8931zqj"
+		},
+		{
+			"key": 1089042729,
+			"datasetKey": "7741a517-ab3d-4b85-ae58-56322e44c8ce",
+			"publishingOrgKey": "d073b448-6b80-4364-8c38-18d08b88797f",
+			"installationKey": "b38ff2b7-c8af-454e-b5af-ee760f0d5bca",
+			"hostingOrganizationKey": "8595cd50-87c0-11dc-bb35-b8a03c50a862",
+			"publishingCountry": "BR",
+			"protocol": "EML",
+			"lastCrawled": "2026-09-18T16:05:57.444Z",
+			"lastParsed": "2026-09-18T16:10:52.264Z",
+			"crawlId": 539,
+			"extensions": {},
+			"basisOfRecord": "PRESERVED_SPECIMEN",
+			"occurrenceStatus": "PRESENT",
+			"classifications": {
+				"7ddf754f-d193-4cc9-b351-99906754a03b": {
+					"usage": {
+						"key": "8VWSK",
+						"name": "Declieuxia Kunth",
+						"rank": "GENUS",
+						"code": "BOTANICAL",
+						"authorship": "Kunth",
+						"formattedName": "<i>Declieuxia</i> Kunth"
+					},
+					"acceptedUsage": {
+						"key": "8VWSK",
+						"name": "Declieuxia Kunth",
+						"rank": "GENUS",
+						"code": "BOTANICAL",
+						"formattedName": "<i>Declieuxia</i> Kunth",
+						"authorship": "Kunth"
+					},
+					"taxonomicStatus": "ACCEPTED",
+					"classification": [
+						{
+							"key": "CS5HF",
+							"name": "Eukaryota",
+							"rank": "DOMAIN"
+						},
+						{
+							"key": "P",
+							"name": "Plantae",
+							"rank": "KINGDOM"
+						},
+						{
+							"key": "CMQ8S",
+							"name": "Pteridobiotina",
+							"rank": "SUBKINGDOM"
+						},
+						{
+							"key": "TP",
+							"name": "Tracheophyta",
+							"rank": "PHYLUM"
+						},
+						{
+							"key": "MG",
+							"name": "Magnoliopsida",
+							"rank": "CLASS"
+						},
+						{
+							"key": "39D",
+							"name": "Gentianales",
+							"rank": "ORDER"
+						},
+						{
+							"key": "SGJN5",
+							"name": "Rubiaceae",
+							"rank": "FAMILY"
+						},
+						{
+							"key": "V58RX",
+							"name": "Rubioideae",
+							"rank": "SUBFAMILY"
+						},
+						{
+							"key": "V5LZR",
+							"name": "Coussareeae",
+							"rank": "TRIBE"
+						},
+						{
+							"key": "8VWSK",
+							"name": "Declieuxia",
+							"rank": "GENUS"
+						}
+					],
+					"issues": []
+				},
+				"d7dddbf4-2cf0-4f39-9b2a-bb099caae36c": {
+					"usage": {
+						"key": "2912315",
+						"name": "Declieuxia Kunth",
+						"rank": "GENUS",
+						"formattedName": "<i>Declieuxia</i> Kunth",
+						"authorship": "Kunth"
+					},
+					"acceptedUsage": {
+						"key": "2912315",
+						"name": "Declieuxia Kunth",
+						"rank": "GENUS",
+						"formattedName": "<i>Declieuxia</i> Kunth",
+						"authorship": "Kunth"
+					},
+					"taxonomicStatus": "ACCEPTED",
+					"classification": [
+						{
+							"key": "6",
+							"name": "Plantae",
+							"rank": "KINGDOM"
+						},
+						{
+							"key": "7707728",
+							"name": "Tracheophyta",
+							"rank": "PHYLUM"
+						},
+						{
+							"key": "220",
+							"name": "Magnoliopsida",
+							"rank": "CLASS"
+						},
+						{
+							"key": "412",
+							"name": "Gentianales",
+							"rank": "ORDER"
+						},
+						{
+							"key": "8798",
+							"name": "Rubiaceae",
+							"rank": "FAMILY"
+						},
+						{
+							"key": "2912315",
+							"name": "Declieuxia",
+							"rank": "GENUS"
+						}
+					],
+					"issues": []
+				}
+			},
+			"taxonKey": 2912315,
+			"kingdomKey": 6,
+			"phylumKey": 7707728,
+			"classKey": 220,
+			"orderKey": 412,
+			"familyKey": 8798,
+			"genusKey": 2912315,
+			"acceptedTaxonKey": 2912315,
+			"scientificName": "Declieuxia Kunth",
+			"acceptedScientificName": "Declieuxia Kunth",
+			"kingdom": "Plantae",
+			"phylum": "Tracheophyta",
+			"order": "Gentianales",
+			"family": "Rubiaceae",
+			"genus": "Declieuxia",
+			"taxonRank": "GENUS",
+			"taxonomicStatus": "ACCEPTED",
+			"decimalLatitude": -11.191389,
+			"decimalLongitude": -46.846389,
+			"continent": "SOUTH_AMERICA",
+			"gadm": {
+				"level0": {
+					"gid": "BRA",
+					"name": "Brazil"
+				},
+				"level1": {
+					"gid": "BRA.27_1",
+					"name": "Tocantins"
+				},
+				"level2": {
+					"gid": "BRA.27.4_2",
+					"name": "Almas"
+				},
+				"level3": {
+					"gid": "",
+					"name": ""
+				}
+			},
+			"year": 2020,
+			"month": 1,
+			"day": 14,
+			"eventDate": "2020-01-14",
+			"startDayOfYear": 14,
+			"endDayOfYear": 14,
+			"issues": [
+				"CONTINENT_DERIVED_FROM_COORDINATES",
+				"INSTITUTION_MATCH_NONE"
+			],
+			"lastInterpreted": "2026-09-18T16:10:52.264Z",
+			"license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+			"isSequenced": false,
+			"identifiers": [
+				{
+					"identifier": "https://specieslink.net/guid/2/86894"
+				}
+			],
+			"media": [
+				{
+					"type": "",
+					"format": "",
+					"created": "0001-01-01T00:00:00Z",
+					"rightsHolder": "",
+					"identifier": ""
+				}
+			],
+			"facts": [],
+			"relations": [],
+			"isInCluster": false,
+			"recordedBy": "Martinelli, G; Fernandez, E; Cosac, GB; Estevam, DL",
+			"dnaSequenceID": [],
+			"nucleotideSequence": [],
+			"geodeticDatum": "WGS84",
+			"class": "Magnoliopsida",
+			"countryCode": "BR",
+			"recordedByIDs": [],
+			"identifiedByIDs": [],
+			"gbifRegion": "LATIN_AMERICA",
+			"country": "Brazil",
+			"publishedByGbifRegion": "LATIN_AMERICA",
+			"catalogNumber": "86894",
+			"http://unknown.org/crawl_attempt": "539",
+			"institutionCode": "UNICAMP",
+			"locality": "Esta\u00e7\u00e3o Ecol\u00f3gica Serra Geral do Tocantins. Serra da Muri\u00e7oca.",
+			"gbifID": "1089042729",
+			"collectionCode": "UEC",
+			"scientificNameAuthorship": "Kunth",
+			"modified": "2026-09-11T19:24:09Z",
+			"identifier": "https://specieslink.net/guid/2/86894",
+			"occurrenceID": "https://specieslink.net/guid/2/86894",
+			"stateProvince": "Tocantins",
+			"references": "https://specieslink.net/guid/2/86894",
+			"rightsHolder": "Herb\u00e1rio da Universidade Estadual de Campinas",
+			"recordNumber": "21486",
+			"municipality": "Almas",
+			"ownerInstitutionCode": "Universidade Estadual de Campinas",
+			"occurrenceRemarks": "Arbusto, 0,60m, heli\u00f3fila; folhas verdes, discolores; flores com calice verde-escuro, corola alva; bot\u00f5es florais verdes.; Cerrado com afloramentos rochosos.",
+			"collectionID": "https://specieslink.net/col/2",
+			"http://unknown.org/omitFromScheduledCrawlomitempty": ""
+		}
+	]
+}

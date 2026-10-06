@@ -1,0 +1,16 @@
+.git
+bin/
+Dockerfile
+.dockerignore
+*.db-journal
+*.db-wal
+*.db-shm
+.env
+.env.*
+!.env.example
+# The mock API is for local use only, and the tour is for reading.
+cmd/mockapi/
+architectures/
+# Claude Code's and Junie's skills and settings are for the Theming block, not the image.
+.claude/
+.junie/

@@ -1,0 +1,71 @@
+/* block: weather — copy to web/assets/css/weather.css. See weather.md. */
+
+/* Tune from the site's own tokens, on :root or on one .weather:
+     --weather-icon   the icon's colour; the text colour by default
+     --weather-muted  the description and the empty state */
+
+/* The sprite only exists to be referenced, so it takes up no room. */
+.weather-icons {
+	display: none;
+}
+
+.weather {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.25em 0.6em;
+	margin: 0;
+	line-height: 1.3;
+}
+
+.weather--none {
+	color: var(--weather-muted, #6b6b6b);
+	font-style: italic;
+}
+
+/* Strokes inherit into the <use>, so one rule styles every symbol. */
+.weather__icon {
+	flex: none;
+	width: 1.5em;
+	height: 1.5em;
+	color: var(--weather-icon, currentColor);
+	fill: none;
+	stroke: currentColor;
+	stroke-width: 1.5;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.weather__temp {
+	font-weight: 600;
+	font-variant-numeric: tabular-nums;
+}
+
+.weather__condition {
+	color: var(--weather-muted, #6b6b6b);
+}
+
+.weather__wind {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.3em;
+	font-variant-numeric: tabular-nums;
+}
+
+/* The arrow points where the wind was going; the class says where it came from. */
+.weather__arrow {
+	width: 0.9em;
+	height: 0.9em;
+	background: currentColor;
+	clip-path: polygon(50% 0, 85% 100%, 50% 72%, 15% 100%);
+	transform: rotate(var(--wind, 0deg));
+}
+
+.weather__wind--n  { --wind: 180deg; }
+.weather__wind--ne { --wind: 225deg; }
+.weather__wind--e  { --wind: 270deg; }
+.weather__wind--se { --wind: 315deg; }
+.weather__wind--s  { --wind: 0deg; }
+.weather__wind--sw { --wind: 45deg; }
+.weather__wind--w  { --wind: 90deg; }
+.weather__wind--nw { --wind: 135deg; }

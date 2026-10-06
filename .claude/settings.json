@@ -1,0 +1,16 @@
+{
+  "model": "opus",
+  "permissions": {
+    "allow": [
+      "Bash(make templ)",
+      "Bash(make design-search *)",
+      "Bash(go build ./...)",
+      "Bash(curl -s http://localhost:*)",
+      "Edit(/web/**)"
+    ],
+    "deny": [
+      "Edit(/web/handlers/home*.go)",
+      "Edit(/internal/domain/sighting/sighting.go)"
+    ]
+  }
+}
