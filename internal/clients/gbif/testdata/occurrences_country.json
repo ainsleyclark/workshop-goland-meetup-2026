@@ -1,0 +1,611 @@
+{
+	"offset": 0,
+	"limit": 2,
+	"endOfRecords": false,
+	"count": 6204256,
+	"results": [
+		{
+			"key": 5938027617,
+			"datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+			"publishingOrgKey": "28eb1a3f-1c15-4a95-931a-4af90ecb574d",
+			"datasetCategory": [
+				"CitizenScience"
+			],
+			"installationKey": "997448a8-f762-11e1-a439-00145eb45e9a",
+			"hostingOrganizationKey": "28eb1a3f-1c15-4a95-931a-4af90ecb574d",
+			"publishingCountry": "US",
+			"protocol": "DWC_ARCHIVE",
+			"lastCrawled": "2026-09-10T19:15:51.157Z",
+			"lastParsed": "2026-09-11T06:15:59.087Z",
+			"crawlId": 606,
+			"extensions": {
+				"http://rs.gbif.org/terms/1.0/Multimedia": [
+					{
+						"http://purl.org/dc/terms/created": "2026-01-02T09:01:39-08:00",
+						"http://purl.org/dc/terms/rightsHolder": "Stephanie M. Dloniak",
+						"http://purl.org/dc/terms/type": "StillImage",
+						"http://purl.org/dc/terms/identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/604725372/original.jpg",
+						"http://purl.org/dc/terms/license": "https://creativecommons.org/licenses/by-nc/4.0/",
+						"http://purl.org/dc/terms/format": "image/jpeg",
+						"http://purl.org/dc/terms/creator": "Stephanie M. Dloniak"
+					}
+				]
+			},
+			"basisOfRecord": "HUMAN_OBSERVATION",
+			"occurrenceStatus": "PRESENT",
+			"classifications": {
+				"7ddf754f-d193-4cc9-b351-99906754a03b": {
+					"usage": {
+						"key": "7CYM9",
+						"name": "Tursiops aduncus (Ehrenberg, 1833)",
+						"rank": "SPECIES",
+						"code": "ZOOLOGICAL",
+						"authorship": "(Ehrenberg, 1833)",
+						"genericName": "Tursiops",
+						"specificEpithet": "aduncus",
+						"formattedName": "<i>Tursiops</i> <i>aduncus</i> (Ehrenberg, 1833)"
+					},
+					"acceptedUsage": {
+						"key": "7CYM9",
+						"name": "Tursiops aduncus (Ehrenberg, 1833)",
+						"rank": "SPECIES",
+						"code": "ZOOLOGICAL",
+						"genericName": "Tursiops",
+						"specificEpithet": "aduncus",
+						"formattedName": "<i>Tursiops</i> <i>aduncus</i> (Ehrenberg, 1833)",
+						"authorship": "(Ehrenberg, 1833)"
+					},
+					"taxonomicStatus": "ACCEPTED",
+					"classification": [
+						{
+							"key": "CS5HF",
+							"name": "Eukaryota",
+							"rank": "DOMAIN"
+						},
+						{
+							"key": "N",
+							"name": "Animalia",
+							"rank": "KINGDOM"
+						},
+						{
+							"key": "CH2",
+							"name": "Chordata",
+							"rank": "PHYLUM"
+						},
+						{
+							"key": "8V4V3",
+							"name": "Vertebrata",
+							"rank": "SUBPHYLUM"
+						},
+						{
+							"key": "8V4V5",
+							"name": "Gnathostomata",
+							"rank": "INFRAPHYLUM"
+						},
+						{
+							"key": "8VVWB",
+							"name": "Osteichthyes",
+							"rank": "PARVPHYLUM"
+						},
+						{
+							"key": "9CK8W",
+							"name": "Tetrapoda",
+							"rank": "MEGACLASS"
+						},
+						{
+							"key": "6224G",
+							"name": "Mammalia",
+							"rank": "CLASS"
+						},
+						{
+							"key": "6226C",
+							"name": "Theria",
+							"rank": "SUBCLASS"
+						},
+						{
+							"key": "LG",
+							"name": "Eutheria",
+							"rank": "INFRACLASS"
+						},
+						{
+							"key": "WP",
+							"name": "Cetacea",
+							"rank": "ORDER"
+						},
+						{
+							"key": "62397",
+							"name": "Odontoceti",
+							"rank": "SUBORDER"
+						},
+						{
+							"key": "934",
+							"name": "Delphinidae",
+							"rank": "FAMILY"
+						},
+						{
+							"key": "83WW",
+							"name": "Tursiops",
+							"rank": "GENUS"
+						},
+						{
+							"key": "7CYM9",
+							"name": "Tursiops aduncus",
+							"rank": "SPECIES"
+						}
+					],
+					"issues": [
+						"TAXON_ID_NOT_FOUND"
+					],
+					"iucnRedListCategoryCode": "NT"
+				},
+				"d7dddbf4-2cf0-4f39-9b2a-bb099caae36c": {
+					"usage": {
+						"key": "2440455",
+						"name": "Tursiops aduncus (Ehrenberg, 1833)",
+						"rank": "SPECIES",
+						"code": "ZOOLOGICAL",
+						"genericName": "Tursiops",
+						"specificEpithet": "aduncus",
+						"formattedName": "<i>Tursiops</i> <i>aduncus</i> (Ehrenberg, 1833)",
+						"authorship": "(Ehrenberg, 1833)"
+					},
+					"acceptedUsage": {
+						"key": "2440455",
+						"name": "Tursiops aduncus (Ehrenberg, 1833)",
+						"rank": "SPECIES",
+						"code": "ZOOLOGICAL",
+						"genericName": "Tursiops",
+						"specificEpithet": "aduncus",
+						"formattedName": "<i>Tursiops</i> <i>aduncus</i> (Ehrenberg, 1833)",
+						"authorship": "(Ehrenberg, 1833)"
+					},
+					"taxonomicStatus": "ACCEPTED",
+					"classification": [
+						{
+							"key": "1",
+							"name": "Animalia",
+							"rank": "KINGDOM"
+						},
+						{
+							"key": "44",
+							"name": "Chordata",
+							"rank": "PHYLUM"
+						},
+						{
+							"key": "359",
+							"name": "Mammalia",
+							"rank": "CLASS"
+						},
+						{
+							"key": "733",
+							"name": "Cetacea",
+							"rank": "ORDER"
+						},
+						{
+							"key": "5314",
+							"name": "Delphinidae",
+							"rank": "FAMILY"
+						},
+						{
+							"key": "2440446",
+							"name": "Tursiops",
+							"rank": "GENUS"
+						},
+						{
+							"key": "2440455",
+							"name": "Tursiops aduncus",
+							"rank": "SPECIES"
+						}
+					],
+					"issues": [
+						"TAXON_ID_NOT_FOUND"
+					],
+					"iucnRedListCategoryCode": "NT"
+				}
+			},
+			"taxonKey": 2440455,
+			"kingdomKey": 1,
+			"phylumKey": 44,
+			"classKey": 359,
+			"orderKey": 733,
+			"familyKey": 5314,
+			"genusKey": 2440446,
+			"speciesKey": 2440455,
+			"acceptedTaxonKey": 2440455,
+			"scientificName": "Tursiops aduncus (Ehrenberg, 1833)",
+			"acceptedScientificName": "Tursiops aduncus (Ehrenberg, 1833)",
+			"kingdom": "Animalia",
+			"phylum": "Chordata",
+			"order": "Cetacea",
+			"family": "Delphinidae",
+			"genus": "Tursiops",
+			"species": "Tursiops aduncus",
+			"genericName": "Tursiops",
+			"specificEpithet": "aduncus",
+			"taxonRank": "SPECIES",
+			"taxonomicStatus": "ACCEPTED",
+			"decimalLatitude": -3.4306,
+			"decimalLongitude": 39.964508,
+			"continent": "AFRICA",
+			"gadm": {
+				"level0": {
+					"gid": "",
+					"name": ""
+				},
+				"level1": {
+					"gid": "",
+					"name": ""
+				},
+				"level2": {
+					"gid": "",
+					"name": ""
+				},
+				"level3": {
+					"gid": "",
+					"name": ""
+				}
+			},
+			"year": 2026,
+			"month": 1,
+			"day": 2,
+			"eventDate": "2026-01-02T09:01:39",
+			"startDayOfYear": 2,
+			"endDayOfYear": 2,
+			"issues": [
+				"COORDINATE_ROUNDED",
+				"CONTINENT_DERIVED_FROM_COORDINATES",
+				"TAXON_ID_NOT_FOUND"
+			],
+			"lastInterpreted": "2026-09-11T06:15:59.087Z",
+			"license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+			"isSequenced": false,
+			"identifiers": [
+				{
+					"identifier": "333126626"
+				}
+			],
+			"media": [
+				{
+					"type": "StillImage",
+					"format": "image/jpeg",
+					"created": "2026-01-02T17:01:39Z",
+					"license": "http://creativecommons.org/licenses/by-nc/4.0/",
+					"rightsHolder": "Stephanie M. Dloniak",
+					"identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/604725372/original.jpg",
+					"creator": "Stephanie M. Dloniak"
+				}
+			],
+			"facts": [],
+			"relations": [],
+			"isInCluster": false,
+			"recordedBy": "Stephanie M. Dloniak",
+			"dnaSequenceID": [],
+			"nucleotideSequence": [],
+			"geodeticDatum": "WGS84",
+			"class": "Mammalia",
+			"countryCode": "KE",
+			"recordedByIDs": [],
+			"identifiedByIDs": [],
+			"gbifRegion": "AFRICA",
+			"country": "Kenya",
+			"publishedByGbifRegion": "NORTH_AMERICA",
+			"catalogNumber": "333126626",
+			"http://unknown.org/crawl_attempt": "606",
+			"institutionCode": "iNaturalist",
+			"locality": "",
+			"http://unknown.org/status": "not_reviewed",
+			"gbifID": "5938027617",
+			"collectionCode": "Observations",
+			"scientificNameAuthorship": "(Ehrenberg, 1833)",
+			"iucnRedListCategory": "NT",
+			"modified": "2026-01-02T10:29:26Z",
+			"identifier": "333126626",
+			"occurrenceID": "https://www.inaturalist.org/observations/333126626",
+			"stateProvince": "Kilifi",
+			"coordinateUncertaintyInMeters": 2,
+			"references": "https://www.inaturalist.org/observations/333126626",
+			"identifiedBy": "Stephanie M. Dloniak",
+			"taxonID": "41481",
+			"rightsHolder": "Stephanie M. Dloniak",
+			"verbatimEventDate": "2026-01-02 09:01:39",
+			"eventTime": "09:01:39+03:00",
+			"dateIdentified": "2026-01-02T08:33:54",
+			"datasetName": "iNaturalist research-grade observations",
+			"verbatimLocality": "Kilifi, KE",
+			"http://unknown.org/omitFromScheduledCrawlomitempty": ""
+		},
+		{
+			"key": 5938027647,
+			"datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+			"publishingOrgKey": "28eb1a3f-1c15-4a95-931a-4af90ecb574d",
+			"datasetCategory": [
+				"CitizenScience"
+			],
+			"installationKey": "997448a8-f762-11e1-a439-00145eb45e9a",
+			"hostingOrganizationKey": "28eb1a3f-1c15-4a95-931a-4af90ecb574d",
+			"publishingCountry": "US",
+			"protocol": "DWC_ARCHIVE",
+			"lastCrawled": "2026-09-10T19:15:51.157Z",
+			"lastParsed": "2026-09-11T05:57:56.792Z",
+			"crawlId": 606,
+			"extensions": {
+				"http://rs.gbif.org/terms/1.0/Multimedia": [
+					{
+						"http://purl.org/dc/terms/created": "2026-01-02T09:35:28-08:00",
+						"http://purl.org/dc/terms/rightsHolder": "thomaswald",
+						"http://purl.org/dc/terms/type": "StillImage",
+						"http://purl.org/dc/terms/identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/604757530/original.jpg",
+						"http://purl.org/dc/terms/license": "https://creativecommons.org/licenses/by-nc/4.0/",
+						"http://purl.org/dc/terms/format": "image/jpeg",
+						"http://purl.org/dc/terms/creator": "thomaswald"
+					}
+				]
+			},
+			"basisOfRecord": "HUMAN_OBSERVATION",
+			"occurrenceStatus": "PRESENT",
+			"classifications": {
+				"7ddf754f-d193-4cc9-b351-99906754a03b": {
+					"usage": {
+						"key": "NYV2",
+						"name": "Buteo augur (R\u00fcppell, 1836)",
+						"rank": "SPECIES",
+						"code": "ZOOLOGICAL",
+						"authorship": "(R\u00fcppell, 1836)",
+						"genericName": "Buteo",
+						"specificEpithet": "augur",
+						"formattedName": "<i>Buteo</i> <i>augur</i> (R\u00fcppell, 1836)"
+					},
+					"acceptedUsage": {
+						"key": "NYV2",
+						"name": "Buteo augur (R\u00fcppell, 1836)",
+						"rank": "SPECIES",
+						"code": "ZOOLOGICAL",
+						"genericName": "Buteo",
+						"specificEpithet": "augur",
+						"formattedName": "<i>Buteo</i> <i>augur</i> (R\u00fcppell, 1836)",
+						"authorship": "(R\u00fcppell, 1836)"
+					},
+					"taxonomicStatus": "ACCEPTED",
+					"classification": [
+						{
+							"key": "CS5HF",
+							"name": "Eukaryota",
+							"rank": "DOMAIN"
+						},
+						{
+							"key": "N",
+							"name": "Animalia",
+							"rank": "KINGDOM"
+						},
+						{
+							"key": "CH2",
+							"name": "Chordata",
+							"rank": "PHYLUM"
+						},
+						{
+							"key": "8V4V3",
+							"name": "Vertebrata",
+							"rank": "SUBPHYLUM"
+						},
+						{
+							"key": "8V4V5",
+							"name": "Gnathostomata",
+							"rank": "INFRAPHYLUM"
+						},
+						{
+							"key": "8VVWB",
+							"name": "Osteichthyes",
+							"rank": "PARVPHYLUM"
+						},
+						{
+							"key": "9CK8W",
+							"name": "Tetrapoda",
+							"rank": "MEGACLASS"
+						},
+						{
+							"key": "V2",
+							"name": "Aves",
+							"rank": "CLASS"
+						},
+						{
+							"key": "MB",
+							"name": "Accipitriformes",
+							"rank": "ORDER"
+						},
+						{
+							"key": "5W6",
+							"name": "Accipitridae",
+							"rank": "FAMILY"
+						},
+						{
+							"key": "62HVC",
+							"name": "Buteo",
+							"rank": "GENUS"
+						},
+						{
+							"key": "NYV2",
+							"name": "Buteo augur",
+							"rank": "SPECIES"
+						}
+					],
+					"issues": [
+						"TAXON_ID_NOT_FOUND"
+					],
+					"iucnRedListCategoryCode": "LC"
+				},
+				"d7dddbf4-2cf0-4f39-9b2a-bb099caae36c": {
+					"usage": {
+						"key": "2480540",
+						"name": "Buteo augur (Ruppell, 1836)",
+						"rank": "SPECIES",
+						"code": "ZOOLOGICAL",
+						"genericName": "Buteo",
+						"specificEpithet": "augur",
+						"formattedName": "<i>Buteo</i> <i>augur</i> (Ruppell, 1836)",
+						"authorship": "(Ruppell, 1836)"
+					},
+					"acceptedUsage": {
+						"key": "2480540",
+						"name": "Buteo augur (Ruppell, 1836)",
+						"rank": "SPECIES",
+						"code": "ZOOLOGICAL",
+						"genericName": "Buteo",
+						"specificEpithet": "augur",
+						"formattedName": "<i>Buteo</i> <i>augur</i> (Ruppell, 1836)",
+						"authorship": "(Ruppell, 1836)"
+					},
+					"taxonomicStatus": "ACCEPTED",
+					"classification": [
+						{
+							"key": "1",
+							"name": "Animalia",
+							"rank": "KINGDOM"
+						},
+						{
+							"key": "44",
+							"name": "Chordata",
+							"rank": "PHYLUM"
+						},
+						{
+							"key": "212",
+							"name": "Aves",
+							"rank": "CLASS"
+						},
+						{
+							"key": "7191147",
+							"name": "Accipitriformes",
+							"rank": "ORDER"
+						},
+						{
+							"key": "2877",
+							"name": "Accipitridae",
+							"rank": "FAMILY"
+						},
+						{
+							"key": "2480517",
+							"name": "Buteo",
+							"rank": "GENUS"
+						},
+						{
+							"key": "2480540",
+							"name": "Buteo augur",
+							"rank": "SPECIES"
+						}
+					],
+					"issues": [
+						"TAXON_ID_NOT_FOUND"
+					],
+					"iucnRedListCategoryCode": "LC"
+				}
+			},
+			"taxonKey": 2480540,
+			"kingdomKey": 1,
+			"phylumKey": 44,
+			"classKey": 212,
+			"orderKey": 7191147,
+			"familyKey": 2877,
+			"genusKey": 2480517,
+			"speciesKey": 2480540,
+			"acceptedTaxonKey": 2480540,
+			"scientificName": "Buteo augur (Ruppell, 1836)",
+			"acceptedScientificName": "Buteo augur (Ruppell, 1836)",
+			"kingdom": "Animalia",
+			"phylum": "Chordata",
+			"order": "Accipitriformes",
+			"family": "Accipitridae",
+			"genus": "Buteo",
+			"species": "Buteo augur",
+			"genericName": "Buteo",
+			"specificEpithet": "augur",
+			"taxonRank": "SPECIES",
+			"taxonomicStatus": "ACCEPTED",
+			"decimalLatitude": -1.272472,
+			"decimalLongitude": 34.985667,
+			"continent": "AFRICA",
+			"gadm": {
+				"level0": {
+					"gid": "KEN",
+					"name": "Kenya"
+				},
+				"level1": {
+					"gid": "KEN.33_1",
+					"name": "Narok"
+				},
+				"level2": {
+					"gid": "KEN.33.2_1",
+					"name": "Kilgoris"
+				},
+				"level3": {
+					"gid": "KEN.33.2.4_1",
+					"name": "Kimintet"
+				}
+			},
+			"year": 2026,
+			"month": 1,
+			"day": 2,
+			"eventDate": "2026-01-02T09:35",
+			"startDayOfYear": 2,
+			"endDayOfYear": 2,
+			"issues": [
+				"CONTINENT_DERIVED_FROM_COORDINATES",
+				"TAXON_ID_NOT_FOUND"
+			],
+			"lastInterpreted": "2026-09-11T05:57:56.792Z",
+			"license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+			"isSequenced": false,
+			"identifiers": [
+				{
+					"identifier": "333143771"
+				}
+			],
+			"media": [
+				{
+					"type": "StillImage",
+					"format": "image/jpeg",
+					"created": "2026-01-02T17:35:28Z",
+					"license": "http://creativecommons.org/licenses/by-nc/4.0/",
+					"rightsHolder": "thomaswald",
+					"identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/604757530/original.jpg",
+					"creator": "thomaswald"
+				}
+			],
+			"facts": [],
+			"relations": [],
+			"isInCluster": false,
+			"recordedBy": "thomaswald",
+			"dnaSequenceID": [],
+			"nucleotideSequence": [],
+			"geodeticDatum": "WGS84",
+			"class": "Aves",
+			"countryCode": "KE",
+			"recordedByIDs": [],
+			"identifiedByIDs": [],
+			"gbifRegion": "AFRICA",
+			"country": "Kenya",
+			"publishedByGbifRegion": "NORTH_AMERICA",
+			"catalogNumber": "333143771",
+			"http://unknown.org/crawl_attempt": "606",
+			"institutionCode": "iNaturalist",
+			"locality": "",
+			"http://unknown.org/status": "not_reviewed",
+			"gbifID": "5938027647",
+			"collectionCode": "Observations",
+			"scientificNameAuthorship": "(Ruppell, 1836)",
+			"iucnRedListCategory": "LC",
+			"modified": "2026-03-23T05:22:07Z",
+			"identifier": "333143771",
+			"occurrenceID": "https://www.inaturalist.org/observations/333143771",
+			"stateProvince": "Narok",
+			"references": "https://www.inaturalist.org/observations/333143771",
+			"identifiedBy": "thomaswald",
+			"taxonID": "204471",
+			"rightsHolder": "thomaswald",
+			"verbatimEventDate": "2026/01/02 9:35 AM",
+			"eventTime": "09:35:00+03:00",
+			"dateIdentified": "2026-01-02T12:44:51",
+			"datasetName": "iNaturalist research-grade observations",
+			"verbatimLocality": "Lolgorian, Kenya",
+			"http://unknown.org/omitFromScheduledCrawlomitempty": ""
+		}
+	]
+}

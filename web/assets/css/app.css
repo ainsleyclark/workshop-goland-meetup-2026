@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 30px;
+	background: #fff;
+	color: #0a0a0a;
+	font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.sightings {
+	display: grid;
+	gap: 40px;
+	padding: 0;
+	list-style: none;
+}
+
+.card {
+	display: grid;
+	grid-template-columns: 320px 1fr;
+	grid-template-rows: auto 1fr;
+	gap: 0 24px;
+}
+
+.card__gallery {
+	grid-column: 1;
+	grid-row: 1 / span 2;
+}
+
+.card__header,
+.card__meta {
+	grid-column: 2;
+}
+
+@media (max-width: 640px) {
+	.card {
+		grid-template-columns: 1fr;
+	}
+
+	.card__gallery,
+	.card__header,
+	.card__meta {
+		grid-column: 1;
+		grid-row: auto;
+	}
+}
+
+.card h2,
+.card p {
+	margin: 0 0 8px;
+}
+
+.card__meta {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-content: start;
+	gap: 4px 12px;
+	margin: 0;
+}
+
+.card__meta dd {
+	margin: 0;
+}
+
+.gallery {
+	display: grid;
+	gap: 16px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.gallery img {
+	width: 100%;
+	aspect-ratio: 4 / 3;
+	object-fit: cover;
+}
+
+.gallery__credit {
+	font-size: 12px;
+}

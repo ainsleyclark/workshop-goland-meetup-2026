@@ -1,0 +1,83 @@
+/* block: swiper — copy to web/assets/css/swiper.css. See swiper.md. */
+
+/* Tune from the site's own tokens, on :root or on one .carousel:
+     --swiper-gutter       the page's side padding, in px (swiper.js reads it)
+     --swiper-max          the page's max content width
+     --swiper-theme-color  the active dot (Swiper's own variable) */
+
+/* The peeking slide overflows the viewport on purpose. Clipping whatever
+   holds the carousel stops the page scrolling sideways. clip, not hidden:
+   hidden makes a scroll container, which breaks Swiper's drag tracking. */
+:has(> .carousel) {
+	overflow-x: clip;
+}
+
+/* Swiper's default overflow: hidden cuts the slides off mid-drag. */
+.carousel {
+	overflow: visible;
+	padding-bottom: 2.5rem;
+}
+
+/* Equal-height cards: stretch only works when the slide's height is auto. */
+.carousel .swiper-slide {
+	height: auto !important;
+	display: flex;
+	flex-direction: column;
+}
+
+.carousel .swiper-slide > * {
+	flex: 1;
+}
+
+/* Swiper's inactive dots are black at 20%, invisible on a dark section. */
+.carousel--dark {
+	--swiper-pagination-bullet-inactive-color: #fff;
+	--swiper-pagination-bullet-inactive-opacity: 0.4;
+}
+
+/* Without Swiper (CDN blocked, offline), fall back to a native scroll-snap
+   row. Swiper's own CSS is missing too then, so set the flex row here. */
+.carousel--static .swiper-wrapper {
+	display: flex;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	gap: 1rem;
+	padding-inline: var(--swiper-gutter, 24px);
+}
+
+.carousel--static .swiper-slide {
+	flex: 0 0 min(85%, 22rem);
+	scroll-snap-align: start;
+}
+
+@media (min-width: 1024px) {
+	/* Swiper is disabled here (swiper.js), and a grid takes over. Width, not
+	   padding: Swiper measures offsetWidth, padding included, so padding
+	   would make it overcount the space it has. */
+	.carousel {
+		padding-bottom: 0;
+		width: calc(100% - 2 * var(--swiper-gutter, 24px));
+		max-width: calc(var(--swiper-max, 72rem) - 2 * var(--swiper-gutter, 24px));
+		margin-inline: auto;
+		padding-inline: 0;
+	}
+
+	/* !important beats the inline styles Swiper leaves on the track. */
+	.carousel .swiper-wrapper {
+		display: grid !important;
+		grid-template-columns: repeat(var(--desktop-cols, 3), 1fr);
+		gap: 1.5rem;
+		transform: none !important;
+		width: auto !important;
+		padding-inline: 0;
+	}
+
+	.carousel .swiper-slide {
+		width: auto !important;
+		margin-right: 0 !important;
+	}
+
+	.carousel .swiper-pagination {
+		display: none;
+	}
+}

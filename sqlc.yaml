@@ -1,0 +1,54 @@
+version: "2"
+sql:
+  - engine: "sqlite"
+    queries: "queries"
+    schema: "migrations"
+    gen:
+      go:
+        package: "db"
+        out: "internal/infra/db/sqlc"
+        emit_json_tags: true
+        emit_db_tags: true
+        emit_prepared_queries: false
+        emit_interface: true
+        emit_empty_slices: true
+overrides:
+  go:
+    overrides:
+      - db_type: "INTEGER"
+        nullable: true
+        engine: "sqlite"
+        go_type:
+          type: "int"
+          pointer: true
+      - db_type: "REAL"
+        nullable: true
+        engine: "sqlite"
+        go_type:
+          type: "float64"
+          pointer: true
+      - db_type: "DATETIME"
+        nullable: true
+        engine: "sqlite"
+        go_type:
+          import: "time"
+          type: "Time"
+          pointer: true
+      - db_type: "TEXT"
+        nullable: true
+        engine: "sqlite"
+        go_type:
+          type: "string"
+          pointer: true
+      - db_type: "UUID"
+        engine: "sqlite"
+        go_type:
+          import: "uuid"
+          type: "UUID"
+      - db_type: "UUID"
+        nullable: true
+        engine: "sqlite"
+        go_type:
+          import: "uuid"
+          type: "UUID"
+          pointer: true

@@ -1,0 +1,29 @@
+{
+	"offset": 0,
+	"limit": 20,
+	"endOfRecords": false,
+	"results": [
+		{
+			"type": "StillImage",
+			"format": "image/jpeg",
+			"source": "Checklist Dutch Caribbean Species Register",
+			"created": "2017-01-05T00:00:00.000+00:00",
+			"license": "CC BY-NC-ND",
+			"rightsHolder": "Michiel Oversteegen",
+			"taxonKey": 5231190,
+			"sourceTaxonKey": 181869959,
+			"identifier": "https://images.naturalis.nl/original/csr%2FDML_6601.jpg"
+		},
+		{
+			"type": "StillImage",
+			"format": "image/jpeg",
+			"source": "Checklist Dutch Caribbean Species Register",
+			"created": "2016-10-19T00:00:00.000+00:00",
+			"license": "CC BY-NC-ND",
+			"rightsHolder": "Michiel Oversteegen",
+			"taxonKey": 5231190,
+			"sourceTaxonKey": 181869959,
+			"identifier": "https://images.naturalis.nl/original/csr%2FD80_8153.jpg"
+		}
+	]
+}

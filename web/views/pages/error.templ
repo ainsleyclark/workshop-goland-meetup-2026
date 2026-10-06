@@ -1,0 +1,15 @@
+package pages
+
+import (
+	"strconv"
+	"workshop/web/views/layout"
+)
+
+templ Error(message string, code int) {
+	@layout.Base(layout.BaseProps{
+		Title: "Error " + strconv.Itoa(code),
+	}) {
+		<h1>{ strconv.Itoa(code) }</h1>
+		<p>{ message }</p>
+	}
+}

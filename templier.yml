@@ -1,0 +1,40 @@
+# Run from starter/: CLICOLOR_FORCE=1 templier --config ./templier.yml
+# Open http://localhost:8080 for live reload.
+templier-host: "localhost:8080"
+proxy-timeout: 10s
+tls: null
+
+lint: false # Run `make lint` separately.
+format: true
+debounce: 50ms
+
+log:
+  level: erronly
+  clear-on: ""
+  print-js-debug-logs: false
+
+compiler:
+  env:
+    CGO_ENABLED: 0
+
+app:
+  dir-src-root: ./
+  # main.go is in the module root.
+  dir-cmd: ./
+  # Keep the default workshop.db relative to starter/.
+  dir-work: ./
+  host: http://localhost:8081
+  flags: web --port 8081 --live-reload-url http://localhost:8080
+  exclude:
+    - ".*"
+    - "*~"
+    # SQLite writes must not trigger app rebuilds/restarts.
+    - "*.db"
+    - "*.db-*"
+
+watcher-ignore:
+  - "**/node_modules/**"
+
+# Assets are embedded in Go, so keep the default rebuild behavior.
+# No JS bundler or runtime config files require custom watchers.
+custom-watchers: []
