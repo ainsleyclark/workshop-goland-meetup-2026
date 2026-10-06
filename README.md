@@ -26,8 +26,8 @@ the day; anything that runs `make` and `go` works.
 
    Open this folder in GoLand. The `go.mod` is at the root, so there is nothing else to point
    it at.
-3. **Run setup once.** It installs the Go tools the day needs and points `upstream` at the
-   workshop repository so you can pull fixes:
+3. **Run setup once.** It installs the Go tools the day needs, offers to install Claude Code
+   for the Theming block, and points `upstream` at the workshop repository so you can pull fixes:
 
    ```sh
    make setup
