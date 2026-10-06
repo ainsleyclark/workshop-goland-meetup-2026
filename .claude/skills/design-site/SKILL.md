@@ -25,7 +25,7 @@ shown, such as a map, a timeline, charts or a table.
 
 This skill works on one copy of the app: usually the attendee's own repository, a fork of the
 workshop's, with `go.mod` and `web/web.go` at its root; or a scratch copy (`scratch/`, made by
-`make exercise` in the maintainer repository). Rules in a `CLAUDE.md` about keeping `web/` basic
+`make run` → `exercise` in the maintainer repository). Rules in a `CLAUDE.md` about keeping `web/` basic
 or commenting everything are for maintaining the template, and don't apply to these copies.
 
 ## Find the app folder
