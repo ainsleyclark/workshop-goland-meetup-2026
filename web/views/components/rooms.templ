@@ -1,0 +1,82 @@
+package components
+
+import "workshop/internal/domain/sighting"
+
+templ FloorPlan(rooms []Room) {
+	<section class="floor" id="floor-plan" aria-labelledby="floor-title">
+		<header class="section-head">
+			<p class="kicker">Floor plan</p>
+			<h2 class="chrome" id="floor-title">Pick a room</h2>
+			<p class="section-head__note">Each room is one species. The most seen get the biggest walls.</p>
+		</header>
+		if len(rooms) == 0 {
+			<p class="empty-state">The gallery is empty: no sightings have been ingested yet.</p>
+		} else {
+			<ul class="plan">
+				for _, r := range rooms {
+					<li class="plan__room">
+						<a href={ templ.URL("#" + roomID(r)) } data-room={ roomID(r) }>
+							<span class="plan__label">{ roomLabel(r) }</span>
+							<strong class="plan__name">{ displayName(r.Species) }</strong>
+							<span class="plan__count">{ thousands(len(r.Sightings)) }</span>
+							<span class="plan__unit">sightings</span>
+						</a>
+					</li>
+				}
+				<li class="plan__art" aria-hidden="true"></li>
+			</ul>
+		}
+	</section>
+}
+
+templ Rooms(rooms []Room) {
+	<section class="rooms" id="sightings" aria-labelledby="rooms-title">
+		<header class="section-head">
+			<p class="kicker">The rooms</p>
+			<h2 class="chrome" id="rooms-title">Every sighting</h2>
+			<p class="section-head__note">Newest first. Open a room to walk through it.</p>
+		</header>
+		if len(rooms) == 0 {
+			<p class="empty-state">Nothing on the walls yet. Check back soon!</p>
+		}
+		for _, r := range rooms {
+			<details class="room" id={ roomID(r) } name="rooms">
+				<summary class="room__label">
+					<span class="room__number">{ roomLabel(r) }</span>
+					<span class="room__title">
+						<strong class="room__name">{ displayName(r.Species) }</strong>
+						if r.Species.ScientificName != "" {
+							<em class="room__scientific">{ r.Species.ScientificName }</em>
+						}
+					</span>
+					<span class="room__facts">{ plural(len(r.Sightings), "sighting", "sightings") } · { plural(r.Summary.Countries, "country", "countries") } · { dateRange(r.Summary) }</span>
+				</summary>
+				<table class="room__table">
+					<caption class="visually-hidden">Every sighting in { roomLabel(r) }, { displayName(r.Species) }, newest first</caption>
+					<thead>
+						<tr>
+							<th scope="col">Seen</th>
+							<th scope="col">Where</th>
+							<th scope="col">Observers</th>
+							<th scope="col">Count</th>
+						</tr>
+					</thead>
+					<tbody>
+						for _, s := range r.Sightings {
+							@SightingRow(s)
+						}
+					</tbody>
+				</table>
+			</details>
+		}
+	</section>
+}
+
+templ SightingRow(s sighting.Sighting) {
+	<tr>
+		<td><time datetime={ s.HappenedAt.Format("2006-01-02") }>{ s.HappenedAt.Format("02 Jan 2006") }</time></td>
+		<td>{ place(s.Location) }</td>
+		<td>{ observedBy(s.RecordedBy) }</td>
+		<td>{ headcount(s.IndividualCount) }</td>
+	</tr>
+}

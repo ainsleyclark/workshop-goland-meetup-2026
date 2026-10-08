@@ -19,6 +19,8 @@ type Querier interface {
 	SpeciesFind(ctx context.Context, id uuid.UUID) (Species, error)
 	SpeciesFindByGbifKey(ctx context.Context, gbifKey int64) (Species, error)
 	SpeciesList(ctx context.Context) ([]Species, error)
+	WeatherCreate(ctx context.Context, arg WeatherCreateParams) (Weather, error)
+	WeatherFind(ctx context.Context, id uuid.UUID) (Weather, error)
 }
 
 var _ Querier = (*Queries)(nil)

@@ -1,0 +1,10 @@
+{
+	"name": "Wildlife Watch",
+	"short_name": "Wildlife",
+	"icons": [
+		{ "src": "/assets/images/logo.svg", "sizes": "any", "type": "image/svg+xml" }
+	],
+	"theme_color": "#0B0B0B",
+	"background_color": "#0B0B0B",
+	"display": "standalone"
+}

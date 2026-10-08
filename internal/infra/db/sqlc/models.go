@@ -52,3 +52,12 @@ type Species struct {
 	CanonicalName  string    `db:"canonical_name" json:"canonical_name"`
 	VernacularName string    `db:"vernacular_name" json:"vernacular_name"`
 }
+
+type Weather struct {
+	ID                  uuid.UUID `db:"id" json:"id"`
+	CreatedAt           time.Time `db:"created_at" json:"created_at"`
+	UpdatedAt           time.Time `db:"updated_at" json:"updated_at"`
+	ObservedAt          time.Time `db:"observed_at" json:"observed_at"`
+	Temperature         *int      `db:"temperature" json:"temperature"`
+	ApparentTemperature *int      `db:"apparent_temperature" json:"apparent_temperature"`
+}
