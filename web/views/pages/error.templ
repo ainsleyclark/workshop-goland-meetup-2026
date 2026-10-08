@@ -8,8 +8,12 @@ import (
 templ Error(message string, code int) {
 	@layout.Base(layout.BaseProps{
 		Title: "Error " + strconv.Itoa(code),
+		Count: 0,
 	}) {
-		<h1>{ strconv.Itoa(code) }</h1>
-		<p>{ message }</p>
+		<section class="error-page">
+			<h1 class="chrome">{ strconv.Itoa(code) }</h1>
+			<p>{ message }</p>
+			<a class="gel gel--pink" href="/">Back to the gallery</a>
+		</section>
 	}
 }

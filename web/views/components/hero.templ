@@ -1,0 +1,73 @@
+package components
+
+import "workshop/internal/domain/sighting"
+
+templ Hero(p HeroProps) {
+	<section class="hero" id="highlights" aria-labelledby="hero-title">
+		<div class="hero__text">
+			<p class="kicker">Now showing: the wild exhibition</p>
+			<h1 class="hero__title" id="hero-title"><span class="hero__script">Wildlife</span> <span class="hero__block chrome">Watch</span></h1>
+			<p class="hero__lede">{ thousands(p.Summary.Sightings) } sightings of the wild, hung in { plural(p.Summary.Species, "room", "rooms") }. No photos. No Flash. Just who saw what, and where.</p>
+			<div class="hero__actions">
+				<a class="gel gel--pink" href="#floor-plan">Enter the gallery</a>
+				<a class="gel gel--chrome" href="https://www.gbif.org" rel="noopener">Data: GBIF.org</a>
+			</div>
+			<p class="counter">
+				<span class="counter__label">Sightings counter</span>
+				<span class="counter__digits" aria-hidden="true">
+					for _, d := range counterDigits(p.Summary.Sightings) {
+						<span>{ d }</span>
+					}
+				</span>
+				<span class="visually-hidden">{ thousands(p.Summary.Sightings) }</span>
+			</p>
+		</div>
+		<div class="hero__visual">
+			@CatArt()
+			if p.Latest != nil {
+				@Phone(*p.Latest)
+			}
+		</div>
+	</section>
+}
+
+templ Phone(s sighting.Sighting) {
+	<figure class="phone">
+		<figcaption class="visually-hidden">The latest sighting, as a text message</figcaption>
+		<div class="phone__top">
+			<div class="phone__screen">
+				<p class="phone__status"><span>1 new message</span><span aria-hidden="true">▂▄▆█</span></p>
+				<p class="phone__text">omg!! { displayName(s.Species) } spotted in { place(s.Location) } on { s.HappenedAt.Format("2 Jan") }. seen by { textSender(s.RecordedBy) } xoxo</p>
+			</div>
+		</div>
+		<div class="phone__hinge" aria-hidden="true"></div>
+		<div class="phone__keys" aria-hidden="true"></div>
+	</figure>
+}
+
+templ Ticker(s sighting.Summary) {
+	<div class="ticker">
+		<div class="ticker__window">
+			<div class="ticker__track">
+				<p class="ticker__items">
+					@tickerItems(s)
+				</p>
+				<p class="ticker__items" aria-hidden="true">
+					@tickerItems(s)
+				</p>
+			</div>
+		</div>
+		<button class="ticker__toggle" type="button">Pause</button>
+	</div>
+}
+
+templ tickerItems(s sighting.Summary) {
+	<span>{ plural(s.Sightings, "sighting", "sightings") }</span>
+	<span>{ plural(s.Species, "species", "species") }</span>
+	<span>{ plural(s.Countries, "country", "countries") }</span>
+	<span>{ plural(s.Recorders, "observer", "observers") }</span>
+	if !s.Latest.IsZero() {
+		<span>Latest { s.Latest.Format("2 Jan 2006") }</span>
+	}
+	<span>Open daily, no flash photography</span>
+}

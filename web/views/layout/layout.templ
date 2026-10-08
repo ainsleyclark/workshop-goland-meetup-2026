@@ -2,6 +2,7 @@ package layout
 
 type BaseProps struct {
 	Title string
+	Count int
 }
 
 templ Base(props BaseProps) {
@@ -10,14 +11,47 @@ templ Base(props BaseProps) {
 		<head>
 			<meta charset="utf-8"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1"/>
+			<link rel="icon" href="/assets/images/logo.svg" type="image/svg+xml"/>
+			<link rel="manifest" href="/assets/manifest.json"/>
+			<meta name="theme-color" content="#0B0B0B"/>
 			<title>{ props.Title }</title>
+			<link rel="preconnect" href="https://fonts.googleapis.com"/>
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+			<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&family=Space+Mono:wght@400;700&family=Unbounded:wght@800&display=swap"/>
 			<link rel="stylesheet" href="/assets/css/app.css"/>
+			<script src="/assets/js/app.js" defer></script>
 		</head>
 		<body>
-			<main class="container">
+			<a class="skip-link" href="#main">Skip to content</a>
+			<header class="site-header">
+				<div class="container site-header__inner">
+					<a href="/" class="site-logo">
+						<img src="/assets/images/logo.svg" alt="Wildlife Watch, home" width="36" height="36"/>
+						<span class="site-logo__name">Wildlife Watch</span>
+					</a>
+					<nav aria-label="Main">
+						<ul class="site-nav">
+							<li><a href="/#floor-plan">Floor plan</a></li>
+							<li><a href="/#sightings">Rooms</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+			<main id="main" class="container">
 				{ children... }
 			</main>
-			<script src="/assets/js/app.js"></script>
+			<footer class="site-footer">
+				<div class="container site-footer__inner">
+					<p class="site-footer__name">Wildlife Watch</p>
+					<p>
+						if props.Count > 0 {
+							{ props.Count } sightings on show.
+						}
+						Data from <a href="https://www.gbif.org" rel="noopener">GBIF.org</a>.
+					</p>
+					<p>Best viewed at 1024×768</p>
+				</div>
+			</footer>
 		</body>
 	</html>
 }

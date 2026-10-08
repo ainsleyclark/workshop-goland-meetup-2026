@@ -2,31 +2,63 @@ package components
 
 import (
 	"cmp"
+	"slices"
+	"strings"
 	"workshop/internal/domain/sighting"
 )
 
-templ Gallery(items []sighting.Media) {
+templ Gallery(items []sighting.Media, subject string) {
 	if len(items) == 0 {
 		<p class="gallery__empty">No media recorded.</p>
 	} else {
-		<ul class="gallery">
-			for _, m := range items {
-				<!-- Items -->
-				<li class="gallery__item">
+		<figure class="gallery">
+			<ul class="gallery__items">
+				for i, m := range items {
 					if m.Type == "StillImage" {
-						<img src={ m.URL } alt={ altText(m) } loading="lazy"/>
+						<li class="gallery__item">
+							if i == 0 {
+								<img src={ photoURL(m.URL, sizeMedium) } alt={ altText(m, subject) } loading="lazy" decoding="async"/>
+							} else {
+								<img src={ photoURL(m.URL, sizeSmall) } alt={ altText(m, subject) } loading="lazy" decoding="async"/>
+							}
+						</li>
 					} else {
-						<a href={ templ.URL(m.URL) } rel="noopener">{ altText(m) }</a>
+						<li class="gallery__item gallery__item--link">
+							<a href={ templ.URL(m.URL) } rel="noopener">{ linkText(m) }</a>
+						</li>
 					}
-					if m.Creator != "" {
-						<figcaption class="gallery__credit">{ m.Creator }</figcaption>
-					}
-				</li>
+				}
+			</ul>
+			{{ c := credits(items) }}
+			if c != "" {
+				<figcaption class="gallery__credit">{ c }</figcaption>
 			}
-		</ul>
+		</figure>
 	}
 }
 
-func altText(m sighting.Media) string {
-	return cmp.Or(m.Title, m.Description, "Sighting media")
+func altText(m sighting.Media, subject string) string {
+	return cmp.Or(m.Title, m.Description, subject)
+}
+
+// linkText names media that can't be shown inline, such as a sound recording.
+func linkText(m sighting.Media) string {
+	if m.Type == "Sound" {
+		return cmp.Or(m.Title, "Listen to the recording")
+	}
+	return cmp.Or(m.Title, m.Description, "Open the media")
+}
+
+// credits names everyone who made the media, once each.
+func credits(items []sighting.Media) string {
+	var names []string
+	for _, m := range items {
+		if m.Creator != "" && !slices.Contains(names, m.Creator) {
+			names = append(names, m.Creator)
+		}
+	}
+	if len(names) == 0 {
+		return ""
+	}
+	return "Credit: " + strings.Join(names, ", ")
 }
